@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Value from "@/components/value";
 import Gallery from "@/components/gallery";
-
+import Testimonials from "@/components/Testimonials";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,6 +25,7 @@ export default function RootLayout({
         <Hero />
         <Value />
         <Gallery />
+        <Testimonials />
         {children}
       </body>
     </html>
