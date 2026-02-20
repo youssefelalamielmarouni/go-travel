@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
 import Value from "@/components/value";
+import Gallery from "@/components/gallery";
 
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Navbar />
         <Hero />
         <Value />
+        <Gallery />
         {children}
       </body>
     </html>
