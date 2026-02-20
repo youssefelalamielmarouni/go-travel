@@ -4,7 +4,7 @@ import { Map, Compass, Mountain, Tent } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[100vh] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
         <motion.img

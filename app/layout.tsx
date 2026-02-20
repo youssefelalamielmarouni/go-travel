@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
+import Value from "@/components/value";
 
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
       >
         <Navbar />
         <Hero />
+        <Value />
         {children}
       </body>
     </html>
