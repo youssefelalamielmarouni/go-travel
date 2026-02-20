@@ -6,6 +6,7 @@ import Value from "@/components/value";
 import Gallery from "@/components/gallery";
 import Testimonials from "@/components/Testimonials";
 import Staps from "@/components/staps";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,7 +29,9 @@ export default function RootLayout({
         <Gallery />
         <Testimonials />
         <Staps />
+        <Footer />
         {children}
+        
       </body>
     </html>
   );
