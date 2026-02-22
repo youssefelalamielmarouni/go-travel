@@ -105,16 +105,8 @@ const DestinationsPage = () => {
         </div>
       </section>
 
-      {/* --- PERSONAL SIGNATURE FOOTER (Minimal Version for Destination Page) --- */}
-      <section className="bg-slate-50 py-12 border-t border-slate-100">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
-            <p>© 2026 Go Travel. Designed by Youssef El alami el marouni</p>
-            <div className="flex gap-8 mt-4 md:mt-0">
-                <a href="#" className="hover:text-blue-600 transition-colors uppercase tracking-widest font-bold text-[10px]">Instagram</a>
-                <a href="#" className="hover:text-blue-600 transition-colors uppercase tracking-widest font-bold text-[10px]">Facebook</a>
-            </div>
-        </div>
-      </section>
+     
+      
     </main>
   );
 };
