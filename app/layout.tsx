@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import Hero from "@/components/hero";
-import Value from "@/components/value";
-import Gallery from "@/components/gallery";
-import Testimonials from "@/components/Testimonials";
-import Staps from "@/components/staps";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
@@ -24,14 +19,10 @@ export default function RootLayout({
         className="bg-gray-100 min-h-screen flex flex-col"
       >
         <Navbar />
-        <Hero />
-        <Value />
-        <Gallery />
-        <Testimonials />
-        <Staps />
-        <Footer />
-        {children}
         
+        
+        {children}
+        <Footer />
       </body>
     </html>
   );

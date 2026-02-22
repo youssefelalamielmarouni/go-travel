@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className={`hidden md:flex space-x-8 items-center font-medium ${
           scrolled ? "text-gray-700" : "text-white/90"
         }`}>
-          <a href="#" className="hover:text-blue-400 transition-colors">Home</a>
+          <a href="/" className="hover:text-blue-400 transition-colors">Home</a>
           <a href="/destinations" className="hover:text-blue-400 transition-colors">Destinations</a>
           <a href="/about" className="hover:text-blue-400 transition-colors">About</a>
           <a href="/contact" className="hover:text-blue-400 transition-colors">Contact</a>
