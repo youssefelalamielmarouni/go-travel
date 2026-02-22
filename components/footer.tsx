@@ -39,7 +39,7 @@ const Footer = () => {
             className="flex lg:justify-end"
           >
             <button className="group relative flex items-center gap-4 bg-white text-slate-950 px-12 py-8 rounded-full font-bold text-2xl hover:bg-blue-500 hover:text-white transition-all duration-500">
-              Contact Us
+              <a href="/contact">Contact Us </a>
               <div className="bg-slate-950 text-white p-2 rounded-full group-hover:bg-white group-hover:text-blue-500 transition-colors">
                 <ArrowUpRight size={15} />
               </div>
